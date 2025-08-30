@@ -23,8 +23,14 @@ body, html {
   width:95%;
   margin-left: 35px;
 }
+.card-link {
+  background-color: unset; 
+  font-size: 12px; 
+  border-color: rgb(133, 133, 133);
+}
 .card-link:hover {
-  background-color: rgb(233,233,233);
+  background-color: rgb(79, 124, 138) !important;
+  color: white !important;
 }
 .header {
     text-align: center;

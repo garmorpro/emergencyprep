@@ -24,9 +24,9 @@ body, html {
   margin-left: 35px;
 }
 .card-link {
-  background-color: unset; 
-  font-size: 12px; 
-  border-color: rgb(133, 133, 133);
+  background-color: unset !important; 
+  font-size: 12px !important; 
+  border-color: rgb(133, 133, 133) !important;
 }
 .card-link:hover {
   background-color: rgb(79, 124, 138) !important;

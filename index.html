@@ -18,33 +18,27 @@
 </head>
 <body>
   <div class="header-class bg-white">
-  <div class="container d-flex justify-content-between align-items-center py-3">
-    <!-- Left side -->
-    <div class="left-header">
-      <h2 class="m-0">Emergency Preparedness</h2>
-    </div>
+  <nav class="navbar navbar-expand-md py-3 container">
+    <!-- Left side / Brand -->
+    <a class="navbar-brand fw-bold m-0" href="#">Emergency Preparedness</a>
 
-    <!-- Hamburger button (mobile) -->
-    <button class="btn d-md-none text-black" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="bi bi-list fs-2"></i>
+    <!-- Hamburger button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Desktop menu -->
-    <div class="right-header d-none d-md-block">
-      <ul class="d-flex list-unstyled m-0">
-        <li class="ms-4"><a href="#resources" class="text-decoration-none text-secondary">Resources</a></li>
-        <li class="ms-4"><a href="#videos" class="text-decoration-none text-secondary">Videos</a></li>
+    <!-- Desktop + Collapsible Menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="mobileMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#resources">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#videos">Videos</a>
+        </li>
       </ul>
     </div>
-  </div>
-
-  <!-- Mobile collapsible menu -->
-  <div class="collapse d-md-none" id="mobileMenu">
-    <ul class="list-unstyled p-3 bg-light mb-0">
-      <li class="mb-2"><a href="#resources" class="text-decoration-none text-dark">Resources</a></li>
-      <li class="mb-2"><a href="#videos" class="text-decoration-none text-dark">Videos</a></li>
-    </ul>
-  </div>
+  </nav>
 </div>
 
 

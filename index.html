@@ -33,14 +33,25 @@
     </div>
   </div>
   
-  <div id="hurricane-banner" class="d-flex justify-content-center pt-3 pb-3 w-100 align-items-center text-white" style="background-color: rgb(240,158,15);">
-  <i class="bi bi-exclamation-triangle pe-2"></i>
-  Hurricane Season&nbsp;<span id="season-year"></span>&nbsp;- Stay Prepared 
-  <span class="fw-lighter ps-2 pe-4" style="font-size: 14px;">June 1 - November 30</span> 
-  <i class="bi bi-calendar4 pe-2"></i> 
-  Season ends in: 
-  <div id="countdown" class="d-flex align-items-center ps-2"></div>
+  <div id="hurricane-banner" class="d-flex flex-column flex-md-row justify-content-center align-items-center text-white py-3 w-100" style="background-color: rgb(240,158,15);">
+  
+  <div class="d-flex align-items-center mb-2 mb-md-0">
+    <i class="bi bi-exclamation-triangle me-2"></i>
+    <span class="fw-bold">Hurricane Season&nbsp;<span id="season-year"></span>&nbsp;- Stay Prepared</span>
+  </div>
+
+  <div class="d-flex align-items-center mb-2 mb-md-0 ms-2 me-2">
+    <span class="fw-lighter" style="font-size: 14px;">June 1 - November 30</span>
+  </div>
+
+  <div class="d-flex align-items-center ms-2">
+    <i class="bi bi-calendar4 me-2"></i>
+    <span class="me-2">Season ends in:</span>
+    <div id="countdown" class="d-flex align-items-center"></div>
+  </div>
+
 </div>
+
 </div>
 
 <script>
@@ -175,7 +186,9 @@
         <img src="images/ss1.png" class="card-img-top" alt="Evacuation Routes">
         <div class="card-body text-center">
           <h5 class="card-title">Evacuation Routes</h5>
-          <a href="https://hurricane.sc/evacuate" class="btn btn-primary mt-2 card-link" target="_blank">Learn More</a>
+          <div class="mt-auto">
+            <a href="https://hurricane.sc/evacuate" class="btn btn-primary text-black mt-2 card-link" target="_blank">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -184,7 +197,9 @@
         <img src="images/ss2.png" class="card-img-top" alt="Hurricane Tracker">
         <div class="card-body text-center">
           <h5 class="card-title">Hurricane Tracker</h5>
-          <a href="https://www.nhc.noaa.gov/" class="btn btn-primary mt-2 card-link" target="_blank">Learn More</a>
+          <div class="mt-auto">
+            <a href="https://www.nhc.noaa.gov/" class="btn btn-primary text-black mt-2 card-link" target="_blank">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -193,7 +208,9 @@
         <img src="images/ss3.png" class="card-img-top" alt="Beaufort County Re-Entry">
         <div class="card-body text-center">
           <h5 class="card-title">Beaufort County Re-Entry</h5>
-          <a href="https://www.beaufortcountysc.gov/" class="btn btn-primary mt-2 card-link" target="_blank">Learn More</a>
+          <div class="mt-auto">
+            <a href="https://www.beaufortcountysc.gov/" class="btn btn-primary text-black mt-2 card-link" target="_blank">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -202,7 +219,9 @@
         <img src="images/ss4.png" class="card-img-top" alt="Potable Water">
         <div class="card-body text-center">
           <h5 class="card-title">Potable Water</h5>
-          <a href="docs/2020-0210-FoodFacts-PowerOutage_ENG_Web.pdf" class="btn btn-primary mt-2 card-link" download>Download</a>
+          <div class="mt-auto">
+            <a href="docs/2020-0210-FoodFacts-PowerOutage_ENG_Web.pdf" class="btn btn-primary text-black mt-2 card-link" download>Download</a>
+          </div>
         </div>
       </div>
     </div>
@@ -215,7 +234,9 @@
         <img src="images/ss5.png" class="card-img-top" alt="72-hour Checklist">
         <div class="card-body text-center">
           <h5 class="card-title">72-hour Checklist</h5>
-          <a href="docs/scemergchecklist.pdf" class="btn btn-primary mt-2 card-link" download>Download</a>
+          <div class="mt-auto">
+            <a href="docs/scemergchecklist.pdf" class="btn btn-primary text-black mt-2 card-link" download>Download</a>
+          </div>
         </div>
       </div>
     </div>
@@ -224,7 +245,9 @@
         <img src="images/ss6.png" class="card-img-top" alt="Grab & Go Checklist">
         <div class="card-body text-center">
           <h5 class="card-title">Grab & Go Checklist</h5>
-          <a href="docs/JGL-emergency-documents-checklist.pdf" class="btn btn-primary mt-2 card-link" download>Download</a>
+          <div class="mt-auto">
+            <a href="docs/JGL-emergency-documents-checklist.pdf" class="btn btn-primary text-black mt-2 card-link" download>Download</a>
+          </div>
         </div>
       </div>
     </div>
@@ -233,7 +256,9 @@
         <img src="images/ss7.png" class="card-img-top" alt="Food Storage">
         <div class="card-body text-center">
           <h5 class="card-title">Food Storage</h5>
-          <a href="https://providentliving.churchofjesuschrist.org/food-storage?lang=eng" class="btn btn-primary mt-2 card-link" target="_blank">Learn More</a>
+          <div class="mt-auto">
+            <a href="https://providentliving.churchofjesuschrist.org/food-storage?lang=eng" class="btn btn-primary text-black mt-2 card-link" target="_blank">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -254,7 +279,9 @@
         <img src="images/ss8.png" class="card-img-top" alt="Hurricane Prep">
         <div class="card-body text-center">
           <h5 class="card-title">Hurricane Prep</h5>
-          <a href="/hurricaneprep.html" class="btn btn-primary mt-2 card-link">Watch Now</a>
+          <div class="mt-auto">
+            <a href="/hurricaneprep.html" class="btn btn-primary text-black mt-2 card-link">Watch Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -263,7 +290,9 @@
         <img src="images/ss9.png" class="card-img-top" alt="Grab & Go">
         <div class="card-body text-center">
           <h5 class="card-title">Grab & Go</h5>
-          <a href="/grab_go.html" class="btn btn-primary mt-2 card-link">Watch Now</a>
+          <div class="mt-auto">
+            <a href="/grab_go.html" class="btn btn-primary text-black mt-2 card-link">Watch Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -272,7 +301,9 @@
         <img src="images/ss10.png" class="card-img-top" alt="72-hour Kits">
         <div class="card-body text-center">
           <h5 class="card-title">72-hour Kits</h5>
-          <a href="/72_hrkits.html" class="btn btn-primary mt-2 card-link">Watch Now</a>
+          <div class="mt-auto">
+            <a href="/72_hrkits.html" class="btn btn-primary text-black mt-2 card-link">Watch Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -281,7 +312,9 @@
         <img src="images/ss11.png" class="card-img-top" alt="Water Storage">
         <div class="card-body text-center">
           <h5 class="card-title">Water Storage</h5>
-          <a href="/waterstorage.html" class="btn btn-primary mt-2 card-link">Watch Now</a>
+          <div class="mt-auto">
+            <a href="/waterstorage.html" class="btn btn-primary text-black mt-2 card-link">Watch Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -302,7 +335,9 @@
         <img src="images/ss12.png" class="card-img-top" alt="Surviving w/o Power">
         <div class="card-body text-center">
           <h5 class="card-title">Surviving w/o Power</h5>
-          <a href="/survivingwopower.html" class="btn btn-primary mt-2 card-link">Watch Now</a>
+          <div class="mt-auto">
+            <a href="/survivingwopower.html" class="btn btn-primary text-black mt-2 card-link">Watch Now</a>
+          </div>
         </div>
       </div>
     </div>

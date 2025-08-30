@@ -27,6 +27,7 @@ body, html {
   background-color: unset !important; 
   font-size: 12px !important; 
   border-color: rgb(133, 133, 133) !important;
+  color: black !important;
 }
 .card-link:hover {
   background-color: rgb(79, 124, 138) !important;
